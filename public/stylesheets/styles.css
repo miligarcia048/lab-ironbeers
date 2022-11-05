@@ -70,12 +70,20 @@ body {
     padding: 100px;
 }
 
+.randomBeer .beersPartial {
+    display: flex;
+}
+
 .randomBeer img {
     max-height: 250px;
     margin-right: 90px;
 }
 
-.randomBeer h1 {
+.info {
+    display: inline-grid;
+}
+
+.randomBeer h5 {
     font-weight: bold;
     font-size: 30px;
 }
