@@ -5,3 +5,99 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #2081c3;
+    color: white;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    color: white;
+}
+
+
+/*index*/
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.home img {
+    margin: 20px;
+    max-height: 480px;
+}
+
+.home button {
+    margin: 10px;
+    background-color: #2081c3;
+    color: white;
+    border-radius: 10px;
+    box-shadow: #0a2c42 2px;
+    padding: 10px;
+}
+
+.card {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.card-img-top {
+    max-height: 250px;
+    max-width: 100px;
+}
+
+.flex {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.randomBeer {
+    flex-direction: row;
+    display: flex;
+    padding: 100px;
+}
+
+.randomBeer img {
+    max-height: 250px;
+    margin-right: 90px;
+}
+
+.randomBeer h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.randomBeer p spam {
+    font-weight: bold;
+}
+
+.randomBeer h6 {
+    color: #bfbfbf;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: #0a2c42;
+    color: white;
+    padding: 15px;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    margin-top: 40px;
+    width: 100%;
+}
